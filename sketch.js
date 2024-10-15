@@ -145,7 +145,7 @@ function picture(){
 
 function instrucciones(){
   inst = createImg("instrucciones.png");
-  inst.position(windowWidth/7+15, windowHeight/10);
+  inst.position(windowWidth/4+15, windowHeight/10);
   inst.size(400,400);
   inst.mousePressed(function(){inst.remove()});
 }
