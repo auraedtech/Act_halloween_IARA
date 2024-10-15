@@ -84,7 +84,7 @@ function frank(){
   instrucciones();
   background("white")
   image(logo,windowWidth/2+180,windowHeight/13,90,90);
-  image(frankImg,windowWidth/6,windowHeight/10,450,450);
+  image(frankImg,windowWidth/4,windowHeight/10,450,450);
   backBtn();
 }
 
@@ -93,7 +93,7 @@ function skull(){
   instrucciones();
   background("white")
   image(logo,windowWidth/2+180,windowHeight/13,90,90);
-  image(skullImg,windowWidth/7,windowHeight/12,450,450);
+  image(skullImg,windowWidth/4,windowHeight/12,450,450);
   backBtn();
 }
 
